@@ -23,19 +23,19 @@ const Home = () => {
             <PostCard
             image='https://images.pexels.com/photos/6069510/pexels-photo-6069510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
             title='CRIME SCENE RECONSTRUCTION'
-            author='Wairuinge'
+            author='Michael'
             date='3rd March, 2024'
             />
             <PostCard
             image='https://imgs.search.brave.com/cMwmdTspzrwrZS4XSXIoCUepKAMJVdBUG-1sZkPVtYs/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90cnVl/Y3JpbWVzZXZlbi5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjEvMDgvUGVkcm8t/QWxvbnNvX0FydGlj/bGVfMDItNDAweDMw/NC5qcGVn'
             title='THE HORRIFYING CRIMES OF PEDRO LOPEZ'
-            author='Wairuinge'
+            author='Omwami'
             date='26th Feb, 2024'
             />
             <PostCard
             image='https://images.unsplash.com/photo-1649941437444-da3776ab96f6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8UEFUSE9MT0dZfGVufDB8fDB8fHww'
             title='FORENSIC PATHOLOGY: A COMPLETE OVERVIEW'
-            author='Wairuinge'
+            author='Nakhumicha'
             date='19th Feb, 2024'
             />
             <PostCard
@@ -47,25 +47,25 @@ const Home = () => {
             <PostCard
             image='https://images.unsplash.com/photo-1631556761867-50fd6cf7f0bb?q=80&w=1582&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
             title='HOW TO BECOME FORENSIC SEROLOGIST?'
-            author='Wairuinge'
+            author='Mary'
             date='5th Feb, 2024'
             />
             <PostCard
             image='https://images.unsplash.com/photo-1603735197568-170adafe8eb9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
             title='IDENTIFICATION OF BIOLOGICAL TRACES'
-            author='Wairuinge'
+            author='Tom'
             date='26th Jan, 2024'
             />
             <PostCard
             image='https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
             title='WHAT IS CYBER FORENSICS?'
-            author='Wairuinge'
+            author='Omwami'
             date='21st Jan, 2024'
             />
             <PostCard
             image='https://images.unsplash.com/photo-1620077399971-431e7ea0cf0c?q=80&w=1506&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
             title='POSTTRAUMATIC STRESS DISORDER(PTSD): SYMPTOMS, CAUSES AND TREATMENT'
-            author='Wairuinge'
+            author='Ireri'
             date='14th Jan, 2024'
             />
             <PostCard
@@ -77,19 +77,19 @@ const Home = () => {
             <PostCard
             image='https://images.unsplash.com/photo-1637929476734-bd7f5f78e40a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
             title='ANCIENT DNA:HOW DO YOU EXTRACT IT'
-            author='Wairuinge'
+            author='Deborah'
             date='31st Dec, 2023'
             />
             <PostCard
             image='https://images.unsplash.com/photo-1611225664647-c01866a22c9c?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
             title='100+ MCQs ON FINGERPRINT'
-            author='Wairuinge'
+            author='Michael'
             date='24th Dec, 2023'
             />
             <PostCard
             image='https://images.unsplash.com/photo-1500099817043-86d46000d58f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RFJPV05JTkd8ZW58MHx8MHx8fDA%3D'
             title='DROWNING IN FORENSIC MEDICINE'
-            author='Wairuinge'
+            author='Karen'
             date='17th Dec, 2023'
             />
             </div>

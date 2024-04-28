@@ -33,7 +33,7 @@ const Blog = () => {
                     <FaPencil />
                   </div>
                   <div className="text-sm">
-                    <p className="font-medium">Phillip Waruinge</p>
+                    <p className="font-medium">Kevin Ireri</p>
                     <p className="text-xs text-slate-400">Forensic Scientist</p>
                   </div>
                 </div>
