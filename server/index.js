@@ -6,6 +6,8 @@ const cookieParser = require('cookie-parser');
 const cors = require('cors');
 const path = require('path');
 const multer = require('multer');
+const port = process.env.PORT || 5000;
+
 
 
 const storage = multer.diskStorage({
@@ -65,8 +67,8 @@ mongoose.connect(process.env.MONGO)
 
 
 
-app.listen(5000, () => {
-  console.log('Server is running on port 5000!');
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}!`);
 });
 
 
