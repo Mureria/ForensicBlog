@@ -7,20 +7,14 @@ const commentSchema = new mongoose.Schema(
       required: true,
     },
     postId: {
-      type: String,
-      required: true,
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'Post',
+      required:true,
     },
     userId: {
-      type: String,
-      required: true,
-    },
-    likes: {
-      type: Array,
-      default: [],
-    },
-    numberOfLikes: {
-      type: Number,
-      default: 0,
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'User',
+      required:true,
     },
   },
   { timestamps: true }

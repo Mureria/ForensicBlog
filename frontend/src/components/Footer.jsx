@@ -20,7 +20,7 @@ const Footer = () => {
         <div className="w-full bg-slate-100 text-center px-4">
           <div className="text-sm py-7 ">
             <p>
-              <span className="font-bold">Forensic Waruinge</span> | Copyright ©
+              <span className="font-bold">ForensicsBlog</span> | Copyright ©
               2024 All Rights Reserved
             </p>
           </div>

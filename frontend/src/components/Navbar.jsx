@@ -3,6 +3,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 
 const Navbar = () => {
+  const isAdmin = true;
   return (
 <>
 <nav className="bg-blue-500 p-4">
@@ -17,6 +18,8 @@ const Navbar = () => {
       <a href="/" className="text-white hover:text-gray-200">Cases</a>      
       <a href="/" className="text-white hover:text-gray-200">About</a>
       <a href="/contact" className="text-white hover:text-gray-200">Contact</a>
+      {isAdmin ? <a href="/admin" className="text-white hover:text-gray-200">Admin</a>
+: '' }
     </div>
     <div className='md:hidden text-white'>
     <RxHamburgerMenu size={24}/>

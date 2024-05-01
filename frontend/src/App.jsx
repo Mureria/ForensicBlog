@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Blog from './Page/Blog';
 import NoPage from './Page/NoPage';
 import Admin from './Page/Admin';
+import ImageUploadForm from './Page/Upload';
 
 const App = () => {
   return (
@@ -14,8 +15,9 @@ const App = () => {
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/blog" element={<Blog />} />
+        <Route path="/post/:id" element={<Blog />} />
         <Route path="/admin" element={<Admin />} />
+        <Route path="/upload" element={<ImageUploadForm />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
       <Footer/>
