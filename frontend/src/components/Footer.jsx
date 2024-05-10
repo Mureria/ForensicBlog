@@ -5,15 +5,15 @@ const Footer = () => {
     <>
       <div className="container mx-auto flex flex-col justify-center items-center">
         <div className="flex flex-col justify-center py-10 px-4 space-y-4">
-          <h1 className="text-lg font-medium">
+          <h1 className="text-sm text-center md:text-lg font-medium">
             Sign up for weekly facts and updates of Forensic Science
           </h1>
           <input
             type="text"
             placeholder="Email"
-            className="px-4 py-3 border-2 bg-inherit   focus:outline-dotted"
+            className="px-4 py-2 md:py-3 border-2 focus:outline-none bg-inherit "
           />
-          <button className="border  py-3 w-full md:max-w-28 mx-auto px-4 rounded-md bg-blue-400 text-white font-semibold">
+          <button className="border   py-2 md:py-3 w-full md:max-w-28 mx-auto px-4 rounded-md bg-blue-400 text-white font-semibold">
             Subscribe
           </button>
         </div>
