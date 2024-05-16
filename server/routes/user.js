@@ -77,7 +77,7 @@ router.delete('/:id', async (req, res) => {
 
 async function getUser(req, res, next) {
   try {
-     user = await User.findById(req.params.id);
+     const user = await User.findById(req.params.id);
     if (user == null) {
       return res.status(404).json({ message: 'Cannot find user' });
     }

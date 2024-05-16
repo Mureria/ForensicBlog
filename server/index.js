@@ -8,7 +8,7 @@ const cors = require('cors');
 const path = require('path');
 const multer = require('multer');
 
-const port = process.env.PORT;
+const port = process.env.PORT || 4000;
 
 
 
