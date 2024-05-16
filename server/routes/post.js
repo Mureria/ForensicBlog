@@ -69,7 +69,7 @@ router.get('/:id', async (req, res) => {
 
 
 // Update post
-router.patch('/:id', getPost, async (req, res) => {
+router.put('/:id', getPost, async (req, res) => {
   if (req.body.content != null) {
     res.post.content = req.body.content;
   }
