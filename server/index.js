@@ -2,10 +2,14 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
+dotenv.config();
 const cookieParser = require('cookie-parser');
 const cors = require('cors');
 const path = require('path');
 const multer = require('multer');
+
+const port = process.env.PORT;
+
 
 
 
@@ -28,12 +32,10 @@ const upload = multer({ storage: storage });
 
 
 
-dotenv.config();
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors())
 
-const port = process.env.PORT;
 
 
 
@@ -43,7 +45,7 @@ const authRoute = require('./routes/auth');
 const userRoute = require('./routes/user');
 const postRoute = require('./routes/post');
 const categoryRoute = require('./routes/category');
-const commentsRoute = require('./routes/comments');
+const commentsRoute = require('./routes/comment');
 
 app.use('/api/auth', authRoute);
 app.use('/api/user', userRoute);
