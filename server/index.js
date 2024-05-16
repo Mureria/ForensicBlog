@@ -6,7 +6,7 @@ const cookieParser = require('cookie-parser');
 const cors = require('cors');
 const path = require('path');
 const multer = require('multer');
-const PORT = process.env.PORT || 5000;
+
 
 
 
@@ -32,6 +32,10 @@ dotenv.config();
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors())
+
+const port = process.env.PORT;
+
+
 
 
 
@@ -67,8 +71,8 @@ mongoose.connect(process.env.MONGO)
 
 
 
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}!`);
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}!`);
 });
 
 
